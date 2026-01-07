@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+
+    <!-- Basic page styling -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .products-container {
+            width: 900px;
+            margin: 30px auto;
+            display: flex;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 280px;
+            border-radius: 6px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.05);
+        }
+
+        .product-card h3 {
+            margin-top: 0;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px;
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Page heading -->
+    <h1>Our Products</h1>
+
+    <!-- Main products container -->
+    <div class="products-container">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <h3>Wireless Mouse</h3>
+            <p>Ergonomic wireless mouse with long battery life.</p>
+            <p class="price">₹799</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <h3>Mechanical Keyboard</h3>
+            <p>Backlit mechanical keyboard with blue switches.</p>
+            <p class="price">₹2,499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <h3>USB-C Hub</h3>
+            <p>7-in-1 USB-C hub for laptops and tablets.</p>
+            <p class="price">₹1,299</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+    <!-- Footer section -->
+    <footer style="text-align:center; margin-top:30px; font-size:12px;">
+        © 2026 MyShop. All rights reserved.
+    </footer>
+
+</body>
+</html>
